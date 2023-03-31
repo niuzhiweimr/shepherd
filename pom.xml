@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>shepherd-core</module>
-        <module>spring-context-support</module>
+        <module>shepherd-context-support</module>
         <module>shepherd-protocol</module>
         <module>shepherd-common</module>
         <module>shepherd-config</module>
