@@ -32,14 +32,15 @@
         <commons-httpclient.version>3.1</commons-httpclient.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
-        <commons-net.version>3.3</commons-net.version>
-        <jackson-databind.version>2.12.7</jackson-databind.version>
+        <commons-net.version>3.9.0</commons-net.version>
+        <jackson-databind.version>2.14.2</jackson-databind.version>
         <curator-recipes.version>2.13.0</curator-recipes.version>
         <dom4j.version>1.6.1</dom4j.version>
         <druid.version>1.1.14</druid.version>
         <dubbo.version>2.5.3</dubbo.version>
         <dubbo.starter.version>0.2.1.RELEASE</dubbo.starter.version>
-        <fastjson.version>1.2.31</fastjson.version>
+        <fastjson.version>2.0.25</fastjson.version>
+        <hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
         <gson.version>2.6.2</gson.version>
         <guava.version>27.0.1-jre</guava.version>
         <guava-retry.version>2.0.0</guava-retry.version>
