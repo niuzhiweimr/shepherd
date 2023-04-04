@@ -178,7 +178,7 @@ public class ValidateUtils {
     /**
      * 验证两位数
      */
-    private static final String V_TWO＿POINT = "^[0-9]+(.[0-9]{2})?$";
+    private static final String V_TWO_POINT = "^[0-9]+(.[0-9]{2})?$";
 
     /**
      * 验证一个月的31天
@@ -472,7 +472,7 @@ public class ValidateUtils {
      * @return 如果是符合格式的字符串, 返回 <b>true </b>,否则为 <b>false </b>
      */
     public static boolean isTwoPoint(String value) {
-        return match(V_TWO＿POINT, value);
+        return match(V_TWO_POINT, value);
     }
 
     /**

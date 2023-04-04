@@ -16,7 +16,7 @@ public abstract class NetUtil {
     /**
      * Pre-loaded local address
      */
-    private static InetAddress localAddress;
+    private static final InetAddress localAddress;
 
     static {
         try {
