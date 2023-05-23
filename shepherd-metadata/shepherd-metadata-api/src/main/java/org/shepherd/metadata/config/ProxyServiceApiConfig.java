@@ -38,6 +38,11 @@ public class ProxyServiceApiConfig implements Serializable {
     private String proxyApiGroup;
 
     /**
+     * 接口状态
+     */
+    private String proxyApiStatus;
+
+    /**
      * 限流配置
      */
     private FlowControlRuleConfig flowControlRuleConfig;

@@ -8,14 +8,19 @@ import java.io.Serializable;
 public class InvokerConfig implements Serializable {
 
     /**
-     * 是否启用mock
+     * 是否开启调用日志
      */
-    private String mockEnabled;
+    private String logEnabled;
 
     /**
-     * 接口mock配置
+     * 是否开启系统保护
      */
-    private String mockData;
+    private String systemGuardEnabled;
+
+    /**
+     * 系统保护类型: API/Application
+     */
+    private String systemGuardType;
 
     /**
      * 代理服务API配置

@@ -22,4 +22,19 @@ public class ShepherdServletConfig implements Serializable {
      */
     private String contentType;
 
+    /**
+     * 是否启用mock
+     */
+    private String mockEnabled;
+
+    /**
+     * 接口mock配置
+     */
+    private String mockData;
+
+    /**
+     * 代理下游服务配置
+     */
+    private InvokerConfig invokerConfig;
+
 }
