@@ -16,7 +16,7 @@ public abstract class AbstractMetadataConfigContext implements MetadataConfigCon
 
 
     @Override
-    public <T> T get(String url, Class<T> tClass) {
+    public <T> T get(String url, T tClass) {
         return isMultiCall(url) ? (T) multiCallMap.get(url) : (T) configMap.get(url);
     }
 

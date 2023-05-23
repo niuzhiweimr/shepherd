@@ -1,8 +1,10 @@
 package org.shepherd.core;
 
+import java.util.List;
+
 public interface MetadataConfigContext {
 
-    <T> T get(String url, Class<T> tClass);
+    <T> T get(String url, T tClass);
 
     <T> T create(T obj);
 
