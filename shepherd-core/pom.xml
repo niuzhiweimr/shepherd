@@ -27,5 +27,15 @@
             <artifactId>shepherd-common</artifactId>
             <version>${revision}</version>
         </dependency>
+        <dependency>
+            <groupId>org.shepherd.metadata</groupId>
+            <artifactId>shepherd-metadata-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.shepherd.protocol</groupId>
+            <artifactId>shepherd-protocol-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 </project>
