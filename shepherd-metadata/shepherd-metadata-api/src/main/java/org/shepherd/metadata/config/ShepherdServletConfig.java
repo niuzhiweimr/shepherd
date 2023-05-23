@@ -1,11 +1,11 @@
-package org.shepherd.metadata;
+package org.shepherd.metadata.config;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
-public class ShepherdHttpServletConfig implements Serializable {
+public class ShepherdServletConfig implements Serializable {
 
     /**
      * 请求地址
@@ -22,8 +22,4 @@ public class ShepherdHttpServletConfig implements Serializable {
      */
     private String contentType;
 
-    /**
-     * 调用配置
-     */
-    private InvokerConfig invokerConfig;
 }

@@ -1,6 +1,6 @@
 package org.shepherd.core;
 
-public abstract class AbstractShepherdApplicationContext implements ShepherdApplicationContext {
+public abstract class AbstractShepherdApplicationContext implements ShepherdApplicationContext, ShepherdHttpServletFactory {
 
     @Override
     public String getId() {

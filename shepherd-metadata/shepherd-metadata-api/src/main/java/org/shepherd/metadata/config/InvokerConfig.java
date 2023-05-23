@@ -1,4 +1,4 @@
-package org.shepherd.metadata;
+package org.shepherd.metadata.config;
 
 import lombok.Data;
 
