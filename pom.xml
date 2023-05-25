@@ -86,7 +86,6 @@
 
     <modules>
         <module>shepherd-core</module>
-        <module>shepherd-context-support</module>
         <module>shepherd-protocol</module>
         <module>shepherd-common</module>
         <module>shepherd-config</module>
